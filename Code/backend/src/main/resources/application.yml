@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://db.ifledhylfecwpinkfpur.supabase.co:5432/postgres?sslmode=require
+    username: postgres
+    password: NP2GEg6sG6YByTUp
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
