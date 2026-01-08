@@ -31,3 +31,18 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Backend
+/backend/target
+/backend/.idea
+/backend/*.log
+/backend/application.properties
+/backend/application.yml
+
+# Frontend
+/frontend/node_modules
+/frontend/dist
+/frontend/.env
+
+# General
+.DS_Store
